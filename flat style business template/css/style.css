@@ -105,6 +105,7 @@ margin-bottom: 25px;
     height: 450px;
     max-width: 965px;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 .text1_1 {
 color: #4c505d;
@@ -129,14 +130,80 @@ text-align: center;
 }
 .cards {
     margin-top: 80px;
-    /* margin-bottom: 80px; */
-    padding-bottom: 80px;
+    margin-bottom: 80px;
 }
 .card_s {
     text-align: center;
+    
 }
 .dhavan {
-    
     background-color: #00d089;
-    height: 100px;
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+.qoer {
+margin-left: 10px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+.dhavan_text {
+color: #e4e4e4;
+font-family: "Helvetica";
+font-size: 26px;
+text-align: center;
+text-transform: uppercase;
+}
+.lorem_text {
+    margin-top: 40px;
+}
+.lorem_text1 {
+color: #ffffff;
+font-family: "Helvetica";
+font-size: 18px;
+}
+.map {
+    background: url(../images/map.png) no-repeat center center / cover ;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    
+}
+.circle {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+    opacity: 0.85;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; 
+    align-items: center;
+}
+.input_parent {
+    display: flex;
+    flex-direction: column ;
+    margin: 0 auto;
+    justify-content: center; 
+    align-items: center;
+} 
+.yes {
+    display:block;
+    background-image: url(../images/yes_logo.svg);
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    
+}
+.input {
+    margin: 10px;
+    padding: px;
+    
+}
+#input3 {
+    height: 80px;
+    resize: none;
+    padding-top: 0px;
 }
