@@ -39,9 +39,8 @@ max-height: 100%;
     opacity: 0.84;
     padding: 5px;
 } 
-.menu__item {
+.menu__item-ad {
     display: none;
-    text-decoration: none;
     
     
 }
@@ -235,7 +234,6 @@ padding: 5px;
 }
 @media(max-width:795px) {
     .menu__item {
-        font-size: 12px;
         display: none;
 
     }
@@ -250,8 +248,8 @@ padding: 5px;
         color: #dce3e4;
         text-decoration: none;
     }
-    .menu_adaptive-link:hover > ul.menu__adaptive-link.menu__item-link {
-        display: block;
+    .menu_adaptive-link:hover > ul.menu__adaptive-ad {
+        display: inline;
         flex-direction: column;
     }
 }
